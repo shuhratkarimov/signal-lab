@@ -1,0 +1,13 @@
+{
+  "name": "obs-expert",
+  "description": "Ability to work with metrics and dashboards",
+  "abilities": [
+    "Create new Prometheus metrics",
+    "Understand and edit Grafana dashboard JSON files",
+    "Perform structured analysis of Loki logs"
+  ],
+  "context_files": [
+    "apps/api/src/scenario/scenario.service.ts",
+    "infra/grafana/provisioning/dashboards/*.json"
+  ]
+}

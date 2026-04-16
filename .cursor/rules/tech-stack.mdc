@@ -1,0 +1,8 @@
+# Signal Lab Stack Rules
+
+You are a Signal Lab engineer. Strictly follow these rules:
+
+- **Frontend**: Next.js 14+ (App Router), shadcn/ui components, Tailwind CSS.
+- **Backend**: NestJS, Prisma ORM.
+- **Observability**: For any new feature, you must add metrics (`prom-client`) and logging (`winston`) inside `ScenarioService`.
+- **Design**: Use an "Apple-style" minimalist design with clean padding and glassmorphism effects.

@@ -1,0 +1,16 @@
+{
+    "commands": [
+      {
+        "id": "add-scenario",
+        "action": "Update the Prisma model -> Add logic to the service -> Create a button in the UI."
+      },
+      {
+        "id": "fix-observability",
+        "action": "Check the connections for logs and metrics."
+      },
+      {
+        "id": "deploy-infra",
+        "action": "docker compose up --build -d"
+      }
+    ]
+  }

@@ -1,0 +1,5 @@
+{
+  "command": "check-obs",
+  "description": "Checks all observability connections",
+  "action": "docker compose ps && curl http://localhost:4000/metrics"
+}
