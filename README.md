@@ -1,21 +1,3 @@
-Архитектура проекта
-
-signal-lab/
-├── .cursor/
-│ ├── rules/ #
-│ ├── skills/ # Пользовательские навыки (obs-analyzer и т. д.)
-│ ├── commands/ # Рабочие процессы
-│ └── hooks/ # Хуки Pre-commit/Post-generation
-├── apps/
-│ ├── web/ # Next.js (shadcn/ui, TanStack Query)
-│ └── api/ # NestJS (Prisma, Prometheus, Loki, Sentry)
-├── infra/
-│ ├── grafana/ # Панели мониторинга и предоставление ресурсов
-│ ├── prometheus/ # Конфигурация
-│ └── loki/ # Конфигурация
-├── docker-compose.yml
-└── README.md
-
 Этот проект представляет собой инженерную песочницу для демонстрации навыков построения современной инфраструктуры мониторинга и создания автономного AI-слоя для разработки в Cursor.
 
 # Быстрый старт
